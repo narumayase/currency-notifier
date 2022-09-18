@@ -1,0 +1,23 @@
+{
+  "telegramData": {
+    "token": "xxxx",
+    "chatId": "xxxx"
+  },
+  "currencies": [
+    {
+      "symbol": "BTCUSDT",
+      "limMax": 20029.82000000,
+      "limMin": 18000.00000000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "limMax": 1600.00000000,
+      "limMin": 1100.00000000
+    },
+    {
+      "symbol": "ETCUSDT",
+      "limMax": 1600.00000000,
+      "limMin": 1100.00000000
+    }
+  ]
+}
