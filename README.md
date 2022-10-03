@@ -1,12 +1,12 @@
 # currency-notifier
 
-Busca en la url de binance las cryptocurrencies configuradas en el archivo [config.json](https://github.com/narumayase/currency-notifier/blob/main/conf.json) con sus valores mínimos y máximos para notificar a un bot de Telegram.
+Finds in the binance url the cryptocurrencies configured in the file [config.json](https://github.com/narumayase/currency-notifier/blob/main/conf.json) and then sends a notification to a Telegram bot if it exeeds the max or min limits of the currencies configured.
 
-## Empezando 🚀
+## Starting 🚀
 
-### Configuración
+### Configuration
 
-Configurar los datos del bot de telegram:
+Configure Telegram bot:
 
 ```
 "telegramData": {
@@ -15,7 +15,7 @@ Configurar los datos del bot de telegram:
   },
 ```
 
-en el archivo [config.json](https://github.com/narumayase/currency-notifier/blob/main/conf.json) con el siguiente formato:
+in the file [config.json](https://github.com/narumayase/currency-notifier/blob/main/conf.json) with format:
 
 ```
 {
@@ -43,11 +43,14 @@ en el archivo [config.json](https://github.com/narumayase/currency-notifier/blob
 }
 ```
 
-### Requerimientos
+and then you can configure the limMin and limMax.
+Looking at the showed example, if BTUSDT exceeds limMax value (20029.82000000) or if BTCUSDT is below limMin (18000.00000000) it will send a telegram notification.
+
+### Requirements
 
 - Go go1.18.4+.
 
-### Ejemplo ejecutando localmente
+### Example running locally
 
 * Run:
 
@@ -55,4 +58,3 @@ en el archivo [config.json](https://github.com/narumayase/currency-notifier/blob
 $ go build
 $ go run main.go
 ```
-
