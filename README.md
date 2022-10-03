@@ -1,6 +1,6 @@
 # currency-notifier
 
-Finds in the binance url the cryptocurrencies configured in the file [config.json](https://github.com/narumayase/currency-notifier/blob/main/conf.json) and then sends a notification to a Telegram bot if it exeeds the max or min limits of the currencies configured.
+Finds in the binance url the cryptocurrencies configured in the file [config.json](https://github.com/narumayase/currency-notifier/blob/main/conf.json) and then sends a notification to a Telegram bot if it exceeds the max or min limits of the currencies configured.
 
 ## Starting 🚀
 
